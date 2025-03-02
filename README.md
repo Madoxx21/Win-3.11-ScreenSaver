@@ -7,7 +7,7 @@ Recreate the classic Windows 3.11 starfield screensaver using Python and Pygame.
   
 1. **Clone the repository**:
 
-   ```bash
+   ```python
 
    git clone https://github.com/Madoxx21/Win-3.11-ScreenSaver.git
 
@@ -16,7 +16,7 @@ Recreate the classic Windows 3.11 starfield screensaver using Python and Pygame.
 
 2. **Set up a virtual environment** (recommended):
 
-   ```bash
+   ```python
 
    python -m venv venv
 
@@ -26,7 +26,7 @@ Recreate the classic Windows 3.11 starfield screensaver using Python and Pygame.
 
 3. **Install dependencies**:
 
-   ```bash
+   ```python
 
    pip install -r requirements.txt
 
@@ -81,8 +81,8 @@ I decided to add extra feature called `scale_on_approach`. This function calcula
 
 `draw_star` function **renders a star** on the screen based on its position, depth, and brightness. It changes the coordinates to match the window coordinate system.
   ```python
-    x = (star[0] * 256) // star[2] + screen_width//2
-    y = (star[1] * 256) // star[2] + screen_height//2
+   x = (star[0] * 256) // star[2] + screen_width // 2
+   y = (star[1] * 256) // star[2] + screen_height // 2
 ```
 
 Moreover, this function uses my extra feature in order to display scaled size of stars
