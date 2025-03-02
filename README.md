@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
   - `color`: Brightness (0-255) or RGB tuple
 
-  ```python
+```python
 
 number_of_stars = 1000
 
@@ -57,7 +57,7 @@ speed = 0.4
 
 stars = []
 
-  ```
+```
 
 ### New star implementation
 
