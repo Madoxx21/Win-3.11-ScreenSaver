@@ -7,30 +7,28 @@ Recreate the classic Windows 3.11 starfield screensaver using Python and Pygame.
   
 1. **Clone the repository**:
 
-   ```python
-
-   git clone https://github.com/Madoxx21/Win-3.11-ScreenSaver.git
-
-   ```
+```python
+git clone https://github.com/Madoxx21/Win-3.11-ScreenSaver.git
+```
 
 
 2. **Set up a virtual environment** (recommended):
 
-   ```python
+```python
 
-   python -m venv venv
+python -m venv venv
 
-   venv\Scripts\activate
+venv\Scripts\activate
 
-   ```
+```
 
 3. **Install dependencies**:
 
-   ```python
+```python
 
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
-   ```
+```
 
 ## Implementation Details
 
